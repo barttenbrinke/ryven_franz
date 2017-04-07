@@ -1,0 +1,23 @@
+{
+  "name": "ryver",
+  "version": "1.0.0",
+  "description": "ryver",
+  "main": "index.js",
+  "author": "Bart ten Brinke <info@retrosync.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://{teamID}.ryver.com/application/login",
+    "serviceName": "Ryver",
+    "message": "Brought to you by retrosync.com",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasIndirectMessages": false,
+    "hasTeamID": true,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
